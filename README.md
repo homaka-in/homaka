@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -96,7 +95,7 @@ nav.main a:hover{ border-color:var(--amber); color:#fff; }
 .menu-toggle{ display:none; background:none; border:2px solid #fff; color:#fff; padding:8px 10px; border-radius:var(--radius); }
 
 /* HERO */
-.hero{ background:var(--ink); color:#fff; padding:64px 0 56px; }
+.hero{ background:var(--ink); color:#fff; padding:64px 0 56px; overflow:hidden; }
 .hero-inner{ display:grid; grid-template-columns:1.15fr 0.85fr; gap:48px; align-items:center; }
 .eyebrow{ font-family:var(--font-mono); color:var(--amber); font-size:13px; letter-spacing:3px; text-transform:uppercase; margin-bottom:14px; }
 h1.hero-h{ font-family:var(--font-display); font-size:44px; line-height:1.12; margin:0 0 20px; letter-spacing:-0.5px; }
